@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="80px" height="61px" viewBox="0 0 80 61" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.4 (17249) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-vt</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="56.6197917%" y1="77.1484375%" x2="6.8944317%" y2="1.40993936%" id="linearGradient-1">
+            <stop stop-color="#94A1B7" offset="0%"></stop>
+            <stop stop-color="#B9C5D4" offset="100%"></stop>
+        </linearGradient>
+        <ellipse id="path-2" cx="18.7136982" cy="17.9842433" rx="17.9842433" ry="17.9842433"></ellipse>
+        <linearGradient x1="11.4839317%" y1="9.81559504%" x2="185.974207%" y2="94.4525859%" id="linearGradient-4">
+            <stop stop-color="#ACB8CA" offset="0%"></stop>
+            <stop stop-color="#95A2B8" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Homepage-Copy-3" sketch:type="MSArtboardGroup" transform="translate(-704.000000, -2078.000000)">
+            <g id="features" sketch:type="MSLayerGroup" transform="translate(-25.000000, 1588.000000)">
+                <g id="Verification-Through-+-Every-copy-that-is-m-+-icon" transform="translate(725.000000, 490.000000)">
+                    <g id="icon-vt" transform="translate(4.535854, 0.115967)">
+                        <g id="Page-1" transform="translate(7.017210, 0.000000)" fill="url(#linearGradient-1)" sketch:type="MSShapeGroup">
+                            <path d="M33.2667849,0.866377528 C26.4274079,0.866377528 19.9796812,3.50949991 15.159687,8.40202203 C5.52695125,17.9622299 5.13840915,33.2687164 13.9215328,43.370811 L1.54216107,56.8144062 C0.765076873,57.5914904 0.765076873,58.9104614 1.54216107,59.7693984 C1.93070317,60.0760877 2.47777045,60.3112851 3.01965716,60.3112851 C3.56154387,60.3112851 4.10861115,60.0760877 4.49715325,59.6875456 L16.9521612,46.2449864 C21.5379941,50.0537351 27.2894533,52.1497902 33.3486378,52.1497902 C40.1880148,52.1497902 46.6357415,49.5066678 51.4557357,44.6141457 C61.4003412,34.6695402 61.4003412,18.350772 51.4515913,8.40202203 C46.5590692,3.50949991 40.1071981,0.866377528 33.2667849,0.866377528 Z M48.5017796,41.7399703 C44.4619779,45.779772 39.0223885,48.0333161 33.2709294,48.0333161 C27.5205063,48.0333161 22.0809169,45.779772 18.0411152,41.7399703 C9.64756973,33.3464248 9.64756973,19.6697429 18.0411152,11.2803419 C22.0809169,7.24054018 27.5205063,4.986996 33.2709294,4.986996 C39.0223885,4.986996 44.4619779,7.24054018 48.5017796,11.2803419 C56.8911807,19.6697429 56.8911807,33.3505692 48.5017796,41.7399703 L48.5017796,41.7399703 Z" id="Fill-1"></path>
+                        </g>
+                        <g id="Group" transform="translate(0.000000, 20.000000)" fill="url(#linearGradient-1)" sketch:type="MSShapeGroup">
+                            <rect id="Rectangle-25-Copy-2" opacity="0.2" x="0.365969234" y="7.16623754" width="4.71228152" height="4.87878845"></rect>
+                            <rect id="Rectangle-25-Copy-7" opacity="0.5" x="0.365969234" y="0.749290547" width="4.71228152" height="4.87878845"></rect>
+                            <rect id="Rectangle-25-Copy-3" opacity="0.5" x="7.15755682" y="7.16623754" width="4.71228152" height="4.87878845"></rect>
+                            <rect id="Rectangle-25-Copy-8" opacity="0.5" x="7.15755682" y="0.749290547" width="4.71228152" height="4.87878845"></rect>
+                        </g>
+                        <g id="Group" transform="translate(67.000000, 20.000000)" fill="url(#linearGradient-1)" sketch:type="MSShapeGroup">
+                            <rect id="Rectangle-25-Copy-6" opacity="0.5" x="0.960007829" y="7.16623754" width="4.71228152" height="4.87878845"></rect>
+                            <rect id="Rectangle-25-Copy-9" opacity="0.5" x="0.960007829" y="0.749290547" width="4.71228152" height="4.87878845"></rect>
+                            <rect id="Rectangle-25-Copy-10" opacity="0.5" x="7.75159542" y="7.16623754" width="4.71228152" height="4.87878845"></rect>
+                            <rect id="Rectangle-25-Copy-11" opacity="0.3" x="7.75159542" y="0.749290547" width="4.71228152" height="4.87878845"></rect>
+                        </g>
+                        <g id="Group" transform="translate(21.225858, 8.432798)">
+                            <mask id="mask-3" sketch:name="Mask" fill="white">
+                                <use xlink:href="#path-2"></use>
+                            </mask>
+                            <use id="Mask" sketch:type="MSShapeGroup" xlink:href="#path-2"></use>
+                            <g mask="url(#mask-3)" fill="url(#linearGradient-4)" sketch:type="MSShapeGroup">
+                                <g transform="translate(-6.293903, 2.219323)">
+                                    <rect id="Rectangle-25-Copy-5" opacity="0.7" x="18.0906048" y="0.959972205" width="14.8327815" height="13.6427768"></rect>
+                                    <rect id="Rectangle-25-Copy-13" opacity="0.5" x="0.0326817842" y="0.959972205" width="14.8327815" height="13.6427768"></rect>
+                                    <rect id="Rectangle-25-Copy-15" opacity="0.3" x="36.2465731" y="0.959972205" width="14.8327815" height="13.6427768"></rect>
+                                    <rect id="Rectangle-25-Copy-12" opacity="0.6" x="18.0906048" y="17.2387106" width="14.8327815" height="13.6427768"></rect>
+                                    <rect id="Rectangle-25-Copy-14" opacity="0.3" x="0.0326817842" y="17.2387106" width="14.8327815" height="13.6427768"></rect>
+                                    <rect id="Rectangle-25-Copy-16" opacity="0.6" x="36.2465731" y="17.2387106" width="14.8327815" height="13.6427768"></rect>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
