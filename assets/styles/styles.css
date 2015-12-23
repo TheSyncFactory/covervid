@@ -142,7 +142,10 @@ footer p {
   }
 
 }
-@media (max-width: 1024px) {
+@media (min-width: 640px) and (max-width: 1024px) {
+
+  h1 { font-size: 76px !important; }
+  h1 img { height: 76px !important; }
 
   form {
     max-width: 400px;
