@@ -6,12 +6,12 @@ html {
   box-sizing: inherit;
 }
 
-/**
- * Masthead
- * -------------------------------------------------------------------------- */
 html {
   font-family: 'Lato', sans-serif;
   -webkit-font-smoothing: antialiased;
+}
+p {
+  color: #444 !important;
 }
 .masthead {
   position: relative;
@@ -132,6 +132,10 @@ footer p {
   margin-bottom: 1em;
 }
 
+.caption {
+  color: #999;
+}
+
 /* Media queries */
 
 @media (max-width: 639px) {
@@ -185,6 +189,10 @@ footer p {
     margin-bottom: 30px;
     font-size: 18px;
     line-height: 1.6;
+  }
+
+  .masthead {
+    margin-bottom: 40px;
   }
 
   .content > section, footer {

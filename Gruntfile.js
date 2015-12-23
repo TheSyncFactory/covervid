@@ -26,10 +26,22 @@ module.exports = function(grunt) {
       }
     },
 
+    htmlmin: {
+      dist: {
+        options: {
+          removeComments: true,
+          collapseWhitespace: true
+        },
+        files: {
+          'index.html': 'index.dev.html'
+        }
+      }
+    },
+
     watch: {
       dist: {
-        files: ['covervid.js', 'assets/**/*'],
-        tasks: ['clean', 'uglify', 'cssmin', 'watch']
+        files: ['covervid.js', 'assets/**/*', '*.dev.html'],
+        tasks: ['clean', 'uglify', 'cssmin', 'htmlmin', 'watch']
       }
     }
 
@@ -39,8 +51,9 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-cssmin');
+  grunt.loadNpmTasks('grunt-contrib-htmlmin');
 
-  grunt.registerTask('default', ['clean', 'uglify', 'cssmin', 'watch']);
-  grunt.registerTask('publish', ['clean', 'uglify', 'cssmin']);
+  grunt.registerTask('default', ['clean', 'uglify', 'cssmin', 'htmlmin', 'watch']);
+  grunt.registerTask('publish', ['clean', 'uglify', 'cssmin', 'htmlmin']);
 
 };
