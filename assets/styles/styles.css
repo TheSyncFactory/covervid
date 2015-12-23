@@ -93,9 +93,6 @@ h1 img {
   vertical-align: middle;
 }
 h2 {
-  margin-top: 0;
-  margin-bottom: 20px;
-  font-size: 40px;
   color: #414141;
 }
 p {
@@ -111,11 +108,8 @@ a {
   color: #1191db;
   text-decoration: none;
 }
-.content {
+.content > section, footer {
   padding-top: 60px;
-}
-.container {
-  margin: auto;
 }
 footer {
   padding-bottom: 60px;
@@ -123,7 +117,23 @@ footer {
 
 /* Media queries */
 
-@media (min-width: 720px) {
+@media (max-width: 639px) {
+
+  #benefits .columns {
+    border-bottom: #dfdfdf 1px solid;
+    margin-bottom: 40px;
+  }
+
+}
+@media (max-width: 1024px) {
+
+  form {
+    max-width: 400px;
+  }
+
+}
+
+@media (min-width: 640px) {
 
   h1 {
     position: absolute;
@@ -144,9 +154,7 @@ footer {
     margin: -10px 20px 0 0;
   }
   h2 {
-    margin-top: 0;
-    margin-bottom: 20px;
-    font-size: 40px;
+    font-size: 20px;
   }
   p {
     margin-top: 0;
@@ -155,14 +163,11 @@ footer {
     line-height: 1.6;
   }
 
-  .container {
-    width: 720px;
-    padding-left: 0;
-    padding-right: 0;
-  }
-
   .content {
     min-height: 768px;
+  }
+
+  #benefits p {
   }
 
 }
