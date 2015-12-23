@@ -132,6 +132,10 @@ footer p {
 
 @media (max-width: 639px) {
 
+  .masthead {
+    margin-bottom: 30px;
+  }
+
   #benefits .columns {
     border-bottom: #dfdfdf 1px solid;
     margin-bottom: 40px;
