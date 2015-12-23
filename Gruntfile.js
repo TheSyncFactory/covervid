@@ -9,7 +9,7 @@ module.exports = function(grunt) {
       dist: {
         files: {
           'covervid.min.js': ['covervid.js'],
-          'assets/scripts/scripts.min.js': ['assets/scripts/jquery.min.js', 'covervid.js', 'assets/scripts/scripts.js']
+          'public/assets/scripts/scripts.min.js': ['scripts/jquery.min.js', 'covervid.js', 'scripts/scripts.js']
         }
       }
     },
@@ -21,7 +21,7 @@ module.exports = function(grunt) {
       },
       target: {
         files: {
-          'assets/styles/styles.min.css': ['assets/styles/foundation.min.css', 'assets/styles/styles.css']
+          'public/assets/styles/styles.min.css': ['styles/foundation.min.css', 'styles/styles.css']
         }
       }
     },
@@ -33,14 +33,14 @@ module.exports = function(grunt) {
           collapseWhitespace: true
         },
         files: {
-          'index.html': 'index.dev.html'
+          'public/index.html': 'index.html'
         }
       }
     },
 
     watch: {
       dist: {
-        files: ['covervid.js', 'assets/**/*', '*.dev.html'],
+        files: ['covervid.js', 'assets/**/*', 'dist/assets/images/*', 'dist/assets/videos/*', '*.html'],
         tasks: ['clean', 'uglify', 'cssmin', 'htmlmin', 'watch']
       }
     }
