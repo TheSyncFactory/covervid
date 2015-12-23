@@ -40,7 +40,7 @@ module.exports = function(grunt) {
 
     watch: {
       dist: {
-        files: ['covervid.js', 'assets/**/*', 'dist/assets/images/*', 'dist/assets/videos/*', '*.html'],
+        files: ['covervid.js', 'styles/*', 'scripts/*', 'dist/assets/images/*', 'dist/assets/videos/*', '*.html'],
         tasks: ['clean', 'uglify', 'cssmin', 'htmlmin', 'watch']
       }
     }
