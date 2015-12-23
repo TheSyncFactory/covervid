@@ -5,8 +5,8 @@
 	"author": "Stefan Erickson",
 	"devDependencies": {
 		"grunt": "~0.4.4",
-		"grunt-contrib-clean": "~0.5.0",
-		"grunt-contrib-uglify": "~0.4.0",
+		"grunt-contrib-clean": "~0.7.0",
+		"grunt-contrib-uglify": "~0.11.0",
 		"grunt-contrib-watch": "~0.6.1"
 	}
 }

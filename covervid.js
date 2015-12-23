@@ -37,7 +37,7 @@ var coverVid = function (elem, width, height) {
 	var posterImage = elem.getAttribute('poster');
 
 	// Remove poster to disable
-	elem.removeAttribute('poster');
+	//elem.removeAttribute('poster');
 
 	// Set poster image as a background cover image on parent element
 	elem.parentNode.style.backgroundImage = 'url(' + posterImage + ')';

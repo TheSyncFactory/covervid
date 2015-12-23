@@ -1,4 +1,4 @@
-CoverVid
+CoverVid (customized for [hedgeformac.com](http://www.hedgeformac.com))
 ========
 At the core of CoverVid, is the idea of this little CSS snippet being possible...
 ```css
