@@ -13,7 +13,6 @@ function fullscreen() {
 
   if (windowW > 640) {
     var content = $('.content');
-    console.log(content);
     content.css('min-height', windowH + 'px');
   }
 
