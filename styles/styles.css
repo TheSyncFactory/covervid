@@ -136,6 +136,10 @@ footer p {
   color: #999;
 }
 
+.dark h2 {
+  text-align: center;
+}
+
 /* Media queries */
 
 @media (max-width: 639px) {
@@ -191,17 +195,24 @@ footer p {
     line-height: 1.6;
   }
 
-  .masthead {
-    margin-bottom: 40px;
-  }
-
   .content > section, .content > div, footer {
-    padding-top: 60px;
+    padding-top: 80px;
+    padding-bottom: 80px;
   }
   footer {
-    margin-top: 60px;
     padding-top: 20px;
-    padding-bottom: 60px;
+  }
+
+  .dark {
+    background: #333740;
+  }
+  .dark h2 {
+    font-size: 36px;
+    color: #e8e8e8;
+  }
+
+  #benefits p {
+    max-width: 250px;
   }
 
 }
