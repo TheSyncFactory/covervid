@@ -7,8 +7,16 @@ $(window).scroll(headerParallax);
 function fullscreen() {
   var masthead = $('.masthead');
   var windowH = $(window).height();
+  var windowW = $(window).width();
 
   masthead.height(windowH);
+
+  if (windowW > 640) {
+    var content = $('.content');
+    console.log(content);
+    content.css('min-height', windowH + 'px');
+  }
+
 }
 
 function loadVideo() {
