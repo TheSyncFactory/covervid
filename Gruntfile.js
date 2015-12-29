@@ -33,7 +33,8 @@ module.exports = function(grunt) {
           collapseWhitespace: true
         },
         files: {
-          'public/index.html': 'index.html'
+          'public/index.html': 'index.html',
+          'public/privacy/index.html': 'privacy.html'
         }
       }
     },
