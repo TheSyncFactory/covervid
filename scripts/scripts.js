@@ -1,5 +1,6 @@
 fullscreen();
 loadVideo();
+hasBeta();
 $(window).resize(fullscreen);
 $(window).resize(loadVideo);
 $(window).scroll(headerParallax);
@@ -55,5 +56,29 @@ function headerParallax() {
       '-ms-transform' : 'translateY(' + st/7 + '%)',
       transform : 'translateY(' + st/7 + '%)'
     });
+  }
+}
+
+function parseQueryString(queryString) {
+
+  var urlParts = window.location.href.split(/[?#]/);
+  var queryString = urlParts[1];
+  var parameters = {};
+  if (queryString) {
+    queryPairs = queryString.split(/[&#]/);
+    for (var i in queryPairs) {
+      var pair = queryPairs[i];
+      var keyValue = pair.split(/[=#]/);
+      parameters[keyValue[0]] = keyValue[1];
+    }
+  }
+  return parameters;
+}
+
+function hasBeta() {
+
+  var parameters = parseQueryString();
+  if (parameters && parameters.ref == "beta") {
+    $('.notification.beta').fadeIn(1000);
   }
 }
